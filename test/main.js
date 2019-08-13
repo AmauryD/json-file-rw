@@ -1,5 +1,5 @@
 const assert = require('assert');
-const jsonFileWriter = require('../src/jsonFileWriter');
+const jsonFileWriter = require('../index');
 const fs = require('fs');
 
 describe('json file writer tests', function() {
