@@ -1,0 +1,32 @@
+{
+  "name": "json-file-rw",
+  "version": "0.0.1",
+  "description": "Json file writer and reader",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AmauryD/json-file-rw.git"
+  },
+  "keywords": [
+    "json",
+    "writer",
+    "reader",
+    "write",
+    "read"
+  ],
+  "author": "amauryd",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AmauryD/json-file-rw/issues"
+  },
+  "homepage": "https://github.com/AmauryD/json-file-rw#readme",
+  "dependencies": {
+    "mocha": "^6.2.0"
+  }
+}
