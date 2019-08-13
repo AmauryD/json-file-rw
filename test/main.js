@@ -3,7 +3,7 @@ const jsonFileWriter = require('../index');
 const fs = require('fs');
 
 describe('json file writer tests', function() {
-    const testFilePath = './src/test';
+    const testFilePath = './test/test.json';
     
     describe('Writing tests', function() {
         fs.writeFileSync(testFilePath,'{}');
