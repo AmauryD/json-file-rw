@@ -1,4 +1,6 @@
 const fs = require('fs');
+const utils = require('util');
+const writeFile = utils.promisify(fs.writeFile);
 
 module.exports = class JsonFileWriter {
     /**
@@ -99,7 +101,7 @@ module.exports = class JsonFileWriter {
      * @param line_spacing
      */
     save(line_spacing = 4) {
-        return fs.writeFile(this.fileName,JSON.stringify(this.jsonContent,null,line_spacing));
+        return writeFile(this.fileName,JSON.stringify(this.jsonContent,null,line_spacing));
     }
 
     /**
