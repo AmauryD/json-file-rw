@@ -1,6 +1,6 @@
 {
   "name": "json-file-rw",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Json file writer and reader",
   "main": "index.js",
   "directories": {
