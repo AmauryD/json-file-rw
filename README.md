@@ -18,7 +18,10 @@ Read and write to json file
     // sync example
     const jsonFileWriter = require('json-file-rw');
 
-    const fileWriter = new jsonFileWriter();
+    const fileWriter = new jsonFileWriter({
+        spacing : 2,
+        replacing : null
+    });
     fileWriter.openSync('file.json');
     fileWriter.setNodeValue("test",123);
     fileWriter.setNodeValue("hello.deep.value","Hey , i'm so deep");
