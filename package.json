@@ -26,7 +26,5 @@
     "url": "https://github.com/AmauryD/json-file-rw/issues"
   },
   "homepage": "https://github.com/AmauryD/json-file-rw#readme",
-  "dependencies": {
-    "mocha": "^6.2.0"
-  }
+  "dependencies": {}
 }
